@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  app:
+    image: node
+    depends_on:
+      - redis
+    command: ["node", "-e", "console.log('app started')"]
+
+  redis:
+    image: redis:latest

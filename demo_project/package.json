@@ -1,0 +1,12 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deliberately broken CI parity demo project",
+  "scripts": {
+    "test": "node -e \"console.log('demo tests passed')\""
+  },
+  "engines": {
+    "node": ">=18 <19"
+  }
+}
